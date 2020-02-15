@@ -82,7 +82,11 @@ arr.swap(2,3) // [1, 2, 4, 3, 6]
 ## Question 8: Negative index array.
 
 ```javascript
-
+var arr = [1,2,3];
+arr[-1] = 4;
+arr['x'] = "Suryansh"
+console.log(arr); // [1, 2, 3, -1: 4, x: "Suryansh"]
+console.log(arr.length); // 3
 ```
 
 ## Question 9: Copy Array to other variable (Shalow and deep copy of an array.
